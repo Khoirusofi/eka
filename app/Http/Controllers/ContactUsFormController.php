@@ -27,11 +27,11 @@ class ContactUsFormController extends Controller
             'subject' => $request->get('subject'),
             'messageContent' => $request->get('message'),
         ], function($message) use ($request) {
-            $message->from($request->get('email'));
+            $message->from('alerts@bidaneka.com', 'Website Bidan Eka Muzaifa');
             $message->to(env('ADMIN_EMAIL', 'alerts@bidaneka.com'), 'Admin');
             $message->subject('Pesan baru dari Website Bidan Eka Muzaifa');
         });
-        return redirect()->route('/')->with('success', 'Pesan Anda telah berhasil dikirim. Terima kasih telah menghubungi kami.');
+        return back()->with('success', 'Pesan Anda telah berhasil dikirim. Terima kasih telah menghubungi kami.');
     }
     
 }
