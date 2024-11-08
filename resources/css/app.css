@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {    
+    :root {
+        --color-accent: 62 101 83;
+        --color-primary: 62 101 83;
+    }
+
+    [x-cloak] { 
+        display: none !important; 
+    }
+
+    html {
+        @apply font-sans antialiased min-h-screen bg-zinc-50;
+    }
+
+    body {
+        margin: 0 !important;
+    }
+
+    p {
+        @apply leading-relaxed;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-display tracking-wide;
+    }
+
+    th {
+        @apply text-start px-6 py-2 font-medium whitespace-nowrap;
+    }
+
+    td {
+        @apply text-start px-6 py-2 text-gray-600 whitespace-nowrap border-b border-zinc-200 h-12;
+    }
+
+    td:not(:first-child) {
+        @apply min-w-32;
+    }
+}
+
+@layer components {
+    .w-content {
+        @apply w-full max-w-6xl px-8 mx-auto;
+    }
+
+    .icon {
+        @apply absolute top-1/2 left-1/2 size-5 transform -translate-y-1/2 -translate-x-1/2;
+    }
+
+    .frame {
+        @apply border-zinc-200 border;
+    }
+}
+
+img {
+    pointer-events: none;
+}
+
+.flatpickr-calendar {
+    background-color: white;
+    color: #3e6553 !important;
+}
+
+.flatpickr-day:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: #3e6553 !important;
+}
+
+.flatpickr-day.selected {
+    background-color: #3e6553 !important;
+    border: none;
+    color: white !important;
+}
+

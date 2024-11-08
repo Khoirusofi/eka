@@ -1,0 +1,317 @@
+{
+    "fields": {
+        "name": {
+            "label": "Nama Lengkap",
+            "placeholder": "Masukkan Nama Lengkap Sesuai KTP"
+        },
+        "email": {
+            "label": "Alamat Email",
+            "placeholder": "Masukkan Alamat Email"
+        },
+        "password": {
+            "label": "Kata Sandi",
+            "placeholder": "Masukkan Kata Sandi"
+        },
+        "password_confirmation": {
+            "label": "Konfirmasi Kata Sandi",
+            "placeholder": "Masukkan Konfirmasi Kata Sandi"
+        },
+        "remember_me": {
+            "label": "Ingat Saya"
+        },
+        "search": {
+            "label": "Pencarian",
+            "placeholder": "Masukkan kata kunci"
+        },
+        "start": {
+            "label": "Tanggal mulai",
+            "placeholder": "Masukkan Tanggal mulai"
+        },
+        "end": {
+            "label": "Tanggal akhir",
+            "placeholder": "Masukkan Tanggal akhir"
+        },
+        "status": {
+            "label": "Status",
+            "placeholder": "Masukkan Status"
+        }
+    },
+    
+    "articles": {
+        "title": {
+            "label": "Judul Artikel",
+            "placeholder": "Masukkan Judul Artikel"
+        },
+        "body": {
+            "label": "Isi Artikel",
+            "placeholder": "Masukkan Isi Artikel"
+        },
+        "excerpt": {
+            "label": "Isi Deskripsi",
+            "placeholder": "Masukkan Isi Deskripsi"
+        },
+        "status": {
+            "label": "Status",
+            "placeholder": "Masukkan Status"
+        },
+        "photo": {
+            "label": "Foto",
+            "placeholder": "Masukkan Foto Artikel, format JPG atau PNG, ukuran maksimal 2MB"
+        },
+        "category": {
+            "label": "Pilih Kategori",
+            "placeholder": "Pilih Kategori"
+        }
+    },
+
+    "categories": {
+        "name": {
+            "label": "Nama Kategori",
+            "placeholder": "Masukkan Nama Kategori"
+        }
+    },
+
+    "galleries": {
+        "title": {
+            "label": "Judul Galleri",
+            "placeholder": "Masukkan Judul Galleri"
+        },
+        "body": {
+            "label": "Isi Galleri",
+            "placeholder": "Masukkan Isi Galleri"
+        },
+        "excerpt": {
+            "label": "Isi Deskripsi",
+            "placeholder": "Masukkan Isi Deskripsi"
+        },
+        "status": {
+            "label": "Status",
+            "placeholder": "Masukkan Status"
+        },
+        "photo": {
+            "label": "Foto",
+            "placeholder": "Masukkan Foto Galleri, format JPG atau PNG, ukuran maksimal 5MB"
+        }
+    },
+
+    "heroes": {
+        "title": {
+            "label": "Judul Hero",
+            "placeholder": "Ex Praktik Mandiri Bidan"
+        },
+        "description": {
+            "label": "Isi Hero",
+            "placeholder": "Masukkan Isi Hero"
+        },
+        "excerpt": {
+            "label": "Isi Deskripsi",
+            "placeholder": "Masukkan Isi Deskripsi"
+        },
+        "status": {
+            "label": "Status",
+            "placeholder": "Masukkan Status"
+        },
+        "photo": {
+            "label": "Foto Hero",
+            "placeholder": "Masukkan Foto Galleri, format JPG atau PNG, ukuran maksimal 5MB"
+        }
+    },
+
+    "services": {
+        "title": {
+            "label": "Judul Layanan",
+            "placeholder": "Masukkan Judul Layanan"
+        },
+        "price": {
+            "label": "Harga",
+            "placeholder": "Masukkan Harga"
+        },
+        "description": {
+            "label": "Penjelasan Layanan",
+            "placeholder": "Masukkan Penjelasan Layanan"
+        },
+        "photo": {
+            "label": "Foto Layanan",
+            "placeholder": "Masukkan Foto Layanan, format JPG atau PNG, ukuran maksimal 2MB"
+        }
+    },
+    "payments": {
+        "account": {
+            "label": "Nama Rekening",
+            "placeholder": "Masukkan Nama Rekening"
+        },
+        "number": {
+            "label": "Nomor Rekening",
+            "placeholder": "Masukkan Nomor Rekening"
+        },
+        "description": {
+            "label": "Penjelasan Metode Pembayaran",
+            "placeholder": "Masukkan Penjelasan Metode Pembayaran"
+        }
+    },
+    "patients": {
+        "user_id": {
+            "label": "Pengguna",
+            "placeholder": "Masukkan Pengguna"
+        },
+        "nik": {
+            "label": "Nomor Induk Kependudukan (NIK)",
+            "placeholder": "1234567890123456"
+        },
+        "phone": {
+            "label": "Nomor Telepon",
+            "placeholder": "081234567890"
+        },
+        "address": {
+            "label": "Alamat Lengkap",
+            "placeholder": "Contoh : Jl. Melati No. 5, Perumahan Bunga Indah, RT 04/RW 02, Kelurahan Sukamaju, Kecamatan Cilandak, Kota Depok, Jawa Barat, 12345"
+        },
+        "birth_date": {
+            "label": "Tanggal Lahir",
+            "placeholder": "Masukkan Tanggal Lahir"
+        },
+        "birth_place": {
+            "label": "Kota Lahir",
+            "placeholder": "Bogor"
+        },
+        "gender": {
+            "label": "Jenis Kelamin",
+            "placeholder": "Pilih Jenis Kelamin"
+        },
+        "blood_type": {
+            "label": "Golongan Darah",
+            "placeholder": "Pilih Golongan Darah"
+        }
+
+        
+    },
+    "users": {
+        "name": {
+            "label": "Nama Lengkap",
+            "placeholder": "Masukkan Nama Lengkap Sesuai KTP"
+        },
+        "email": {
+            "label": "Alamat Email",
+            "placeholder": "Masukkan Alamat Email"
+        },
+        "role": {
+            "label": "Peran",
+            "placeholder": "Masukkan Peran"
+        },
+        "password": {
+            "label": "Kata Sandi",
+            "placeholder": "Masukkan Kata Sandi"
+        }
+    },
+    "actions": {
+        "reset": "Reset",
+        "submit": "Kirim",
+        "delete": "Hapus",
+        "edit": "Edit",
+        "create": "Buat",
+        "update": "Update"
+    },
+    "status": {
+        "pending": "Menunggu Konfirmasi",
+        "confirmed": "Terkonfirmasi",
+        "cancelled": "Dibatalkan",
+        "finished": "Selesai"
+    },
+    "appointments": {
+        "deadline": {
+            "label": "Lakukan Pembayaran Sebelum",
+            "placeholder": "Masukkan Lakukan Pembayaran Sebelum"
+        },
+        "name": {
+            "label": "Nama Pasien",
+            "placeholder": "Masukkan Nama Pasien"
+        },
+        "date": {
+            "label": "Tanggal Janji",
+            "placeholder": "Masukkan Tanggal"
+        },
+        "time": {
+            "label": "Jam Janji",
+            "placeholder": "Masukkan Jam"
+        },
+        "service_id": {
+            "label": "Jenis Layanan",
+            "placeholder": "Masukkan jenis Layanan"
+        },
+        "payment_id": {
+            "label": "Metode Pembayaran",
+            "placeholder": " Pilih Metode Pembayaran"
+        },
+        "frequency": {
+            "label": "Kirim Notifikasi",
+            "placeholder": "Masukkan Frekuensi Notifikasi"
+        },
+        "receipt": {
+            "label": "Bukti Pembayaran",
+            "placeholder": "Masukkan Bukti Pembayaran, format JPG atau PNG, ukuran maksimal 2MB"
+        },
+        "total": {
+            "label": "Total pembayaran",
+            "placeholder": "Masukkan Total Pembayaran"
+        },
+        "price": {
+            "label": "Harga Layanan",
+            "placeholder": "Masukkan Harga Layanan"
+        },
+        "code": {
+            "label": "Kode Unik Pembayaran",
+            "placeholder": "Masukkan Kode Unik Pembayaran"
+        },
+        "sum": {
+            "label": "Total Pembayaran",
+            "placeholder": "Masukkan Total Pembayaran"
+        },
+        "note": {
+            "label": "Catatan",
+            "placeholder": "Masukkan Catatan"
+        }
+    },
+    "frequencies": {
+        "Kirim Notifikasi Melalui Email": "Kirim Notifikasi Melalui Email"
+    },
+    "diagnoses": {
+        "name": {
+            "label": "Nama Pasien",
+            "placeholder": "Masukkan Nama Pasien"
+        },
+        "service": {
+            "label": "Jenis Layanan",
+            "placeholder": "Masukkan Jenis Layanan"
+        },
+        "detail": {
+            "label": "Catatan Pemeriksaan",
+            "placeholder": "Masukkan Catatan Pemeriksaan Lengkap"
+        },
+        "date": {
+            "label": "Tanggal Janji",
+            "placeholder": "Masukkan Tanggal Janji"
+        },
+        "time": {
+            "label": "Jam Janji",
+            "placeholder": "Masukkan Jam Janji"
+        }
+    },
+    "reviews": {
+        "body": {
+            "label": "Kritik dan Saran",
+            "placeholder": "Masukkan Isi Kritik dan Saran"
+        },
+        "action": {
+            "label": "Testimoni",
+            "placeholder": "Masukkan Testimoni"
+        },
+        "respond": {
+            "label": "Jawaban Dari Bidan Eka Muzaifa",
+            "placeholder": "Masukkan Jawaban"
+        },
+        "status": {
+            "label": "Status",
+            "placeholder": "Masukkan Status"
+        }
+    }
+}
