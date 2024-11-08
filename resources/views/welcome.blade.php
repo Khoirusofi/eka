@@ -107,7 +107,7 @@
             memberikan pelayanan kesehatan terbaik kepada ibu dan anak dengan teknologi
             modern. Kami menyadari pentingnya akses mudah ke layanan kesehatan serta informasi dan
             edukasi yang akurat. Untuk itu, kami menyediakan fitur-fitur unggulan yang dirancang untuk memenuhi
-            kebutuhan kesehatan Anda secara komprehensif. </p>
+            kebutuhan kesehatan Anda secara komprehensif.</p>
         <div class="flex overflow-x-scroll gap-8 mx-4 py-2 no-scrollbar" id="scrollContainer">
             @foreach ($services as $service)
                 <div
