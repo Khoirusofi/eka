@@ -31,7 +31,7 @@ class ContactUsFormController extends Controller
             $message->to(env('ADMIN_EMAIL', 'alerts@bidaneka.com'), 'Admin');
             $message->subject('Pesan baru dari Website Bidan Eka Muzaifa');
         });
-        return back()->with('success', 'Pesan Anda telah berhasil dikirim. Terima kasih telah menghubungi kami.');
+        return redirect()->route('/')->with('success', 'Pesan Anda telah berhasil dikirim. Terima kasih telah menghubungi kami.');
     }
     
 }
