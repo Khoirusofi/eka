@@ -11,6 +11,12 @@
             </x-slot>
         </x-heading>
 
+        @if (session('status') == 'verification-link-sent')
+            <div class="mb-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded">
+                {{ session('Kami telah mengirimkan email pengaturan ulang kata sandi Anda!') }}
+            </div>
+        @endif
+
         <div>
             <x-label for="email" :value="__('fields.email.label')" />
             <x-input id="email" type="email" name="email" :value="old('email')" :placeholder="__('fields.email.placeholder')" autocomplete="email"
